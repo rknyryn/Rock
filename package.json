@@ -1,0 +1,28 @@
+{
+  "name": "Rock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rknyryn/Rock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rknyryn/Rock/issues"
+  },
+  "homepage": "https://github.com/rknyryn/Rock#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.3.0",
+    "opusscript": "0.0.8",
+    "youtube-search": "^1.1.6",
+    "ytdl-core": "^4.8.2"
+  }
+}
