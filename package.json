@@ -1,6 +1,6 @@
 {
-  "name": "Rock",
-  "version": "1.0.0",
+  "name": "rock",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,19 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/rknyryn/Rock.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "rknyryn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rknyryn/Rock/issues"
   },
   "homepage": "https://github.com/rknyryn/Rock#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.5.3",
-    "discord.js": "^12.5.3",
-    "ffmpeg-static": "^4.3.0",
-    "opusscript": "0.0.8",
-    "youtube-search": "^1.1.6",
-    "ytdl-core": "^4.8.2"
+    "@discordjs/builders": "^0.9.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1"
   }
 }
