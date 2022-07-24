@@ -1,6 +1,6 @@
 {
   "name": "rock",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,26 @@
     "type": "git",
     "url": "git+https://github.com/rknyryn/Rock.git"
   },
-  "author": "rknyryn",
+  "author": "rknyrn",
   "license": "ISC",
+  "keywords": [
+    "music",
+    "bot",
+    "musicbot",
+    "discordjs"
+  ],
   "bugs": {
     "url": "https://github.com/rknyryn/Rock/issues"
   },
   "homepage": "https://github.com/rknyryn/Rock#readme",
   "dependencies": {
-    "@discordjs/builders": "^0.9.0",
-    "@discordjs/rest": "^0.1.0-canary.0",
-    "discord-api-types": "^0.25.2",
-    "discord.js": "^13.3.1"
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.8.0",
+    "discord-ytdl-core": "^5.0.4",
+    "discord.js": "^13.6.0",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.10",
+    "youtube-sr": "^4.1.15",
+    "ytdl-core": "^4.11.0"
   }
 }
